@@ -52,7 +52,7 @@ variable "module_name" {
 }
 
 variable "source_url" {
-  default = "https://github.com/snapcd-samples/sample-deployment-demonolith-rootstrap.git"
+  default = "https://github.com/snapcd-samples/sample-deployment-demonolith-bootstrap.git"
 }
 variable "branch_name" {
   default = "main"
