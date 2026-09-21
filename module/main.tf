@@ -42,7 +42,6 @@ data "tls_public_key" "deploy_key" {
 
 # --- networking ------------------------------------------------------------
 
-# @demono:split networking
 resource "random_uuid" "vpc_id" {}
 
 # @demono:split networking
